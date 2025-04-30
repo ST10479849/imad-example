@@ -17,7 +17,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'  # corrected typo from 'termurin'
 
-      - name: Build with Gradle
+      - name: Build with project
         run: ./gradlew build
       
 
